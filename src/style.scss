@@ -1,0 +1,67 @@
+$primaryColor: #4527a4;
+
+// Common CSS
+html {
+	scroll-behavior: smooth;
+}
+
+// Dashicon
+.dashicons {
+	font-family: dashicons !important;
+}
+
+// Block Directory
+.wp-block-bpivb-image-viewer-directory {
+	* {
+		box-sizing: border-box;
+	}
+
+
+
+	.bpivbImageViewer {
+		width: 100%;
+		height: 100%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.icon {
+		font-style: inherit;
+	}
+}
+
+.bpivbPanorama {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.resizable-draggable {
+	position: absolute;
+	cursor: move;
+}
+
+#resizeHandle {
+	width: 10px;
+	height: 10px;
+	background-color: #333;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: nwse-resize;
+}
+
+.bpivbImageMap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
