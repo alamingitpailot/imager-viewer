@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Image Viewer
- * Description:  A Gutenberg block to embed images with few advance options such as zoom, pin, magnify, map and Pano.
+ * Description: A Gutenberg block to embed images with few advance options such as zoom, pin, magnify, map and Pano.
  * Version: 1.0.0
  * Author: Al Amin
- * Author URI:https://profiles.wordpress.org/alamincmt
+ * Author URI: https://profiles.wordpress.org/alamincmt
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain: bpivb
@@ -19,7 +19,7 @@ define('BPIVB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/');
 define('BPIVB_DIR', plugin_dir_url(__FILE__));
 
 // Image Viewer
-class BPIVBImageViewer
+class bpivb_Image_Viewer
 {
     public function __construct()
     {
@@ -79,4 +79,4 @@ class BPIVBImageViewer
 		<?php return ob_get_clean();
     } // Render
 }
-new BPIVBImageViewer();
+new bpivb_Image_Viewer();

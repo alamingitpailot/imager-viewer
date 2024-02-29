@@ -8,7 +8,7 @@ const Pano = ({ attributes, setAttributes }) => {
         <ToggleControl className='mt20' label='Auto Rotate' checked={autoRotate} onChange={val => setAttributes({ autoRotate: val })} />
 
         {autoRotate && <>
-            <Label>{__('Auto Rotate Speed:', 'panorama-block')}</Label>
+            <Label>{__('Auto Rotate Speed:', 'bpivb')}</Label>
             <RangeControl value={rotateSpeed} onChange={val => setAttributes({ rotateSpeed: val })} min={-100} max={100} step={1} />
         </>}
 

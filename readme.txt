@@ -1,7 +1,7 @@
 === Image Viewer - Image Viewer ===
 Contributors: alamincmt
 Donate link: https://gum.co/wpdonate/
-Tags: image viewer, zoom, magnify, map, Gutenberg block
+Tags: block, image viewer, zoom, magnify, Gutenberg block
 Requires at least: 5.0+
 Tested up to: 6.4.3
 Stable tag: 1.0.0
@@ -10,7 +10,7 @@ License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
  
-A Gutenberg block to embed images with few advanced options such as zoom, pin, magnify, map and Pano.
+A Gutenberg block to embed images with a few advanced options such as zoom, pin, magnify, map and Pano.
 
 == Description ==
 Image Viewer is a versatile WordPress plugin that provides an intuitive and user-friendly interface for viewing images. With various customization options and features, including zooming, panning, and fullscreen mode, it offers a seamless and immersive image viewing experience for your website visitors
@@ -89,6 +89,6 @@ You can use unlimited times as you want.
 
 Public source code GitHub link for review, study, and contribute.
 
-https://github.com/alamingitpailot/click-to-copy-block
+https://github.com/alamingitpailot/imager-viewer
 
 For more information on how to contribute to this plugin, please visit our GitHub repository.

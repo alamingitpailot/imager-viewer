@@ -1,20 +1,20 @@
 {
-	"name": "block-directory",
+	"name": "imager-viewer",
 	"version": "1.0.0",
-	"description": "Description of Block Directory",
+	"description": "A Gutenberg block to embed images with few advance options such as zoom, pin, magnify, map and Pano.",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint src",
 		"start": "webpack --mode=development --watch",
 		"sync": "browser-sync start -p 'http://localhost/' --files '**/*.php' 'dist/*.js' 'dist/*.css'",
 		"preview": "npm-run-all --parallel sync start",
-		"i18n-pot": "wp i18n make-pot . languages/block-directory.pot --exclude=\"src\" && cp ./languages/block-directory.pot ./languages/block-directory-en_US.po",
+		"i18n-pot": "wp i18n make-pot . languages/imager-viewer.pot --exclude=\"src\" && cp ./languages/imager-viewer.pot ./languages/imager-viewer-en_US.po",
 		"i18n-json": "wp i18n make-json languages/ --no-purge",
 		"i18n-mo": "wp i18n make-mo languages/",
 		"i18n": "npm run i18n-pot && npm run i18n-json && npm run i18n-mo",
 		"build": "gulp clean && npm run lint && webpack --mode=production && npm run i18n && gulp bundle"
 	},
-	"author": "Wasek Bellah",
+	"author": "alamin",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.18.6",
