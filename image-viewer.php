@@ -7,7 +7,7 @@
  * Author URI: https://profiles.wordpress.org/alamincmt
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- * Text Domain: bpivb
+ * Text Domain: image-viewer
  */
 
 // ABS PATH
@@ -52,7 +52,7 @@ class bpivb_Image_Viewer
             'render_callback' => [$this, 'render'],
         ]); // Register Block
 
-        wp_set_script_translations('bpivb-image-viewer-editor-script', 'bpivb', plugin_dir_path(__FILE__) . 'languages'); // Translate
+        wp_set_script_translations('bpivb-image-viewer-editor-script', 'image-viewer', plugin_dir_path(__FILE__) . 'languages'); // Translate
     }
 
     public function render($attributes)

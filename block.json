@@ -9,7 +9,7 @@
 		"viewer",
 		"block"
 	],
-	"textdomain": "bpivb",
+	"textdomain": "image-viewer",
 	"attributes": {
 		"align": {
 			"type": "string",

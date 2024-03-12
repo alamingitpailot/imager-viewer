@@ -6,11 +6,11 @@ import { perUnit, pxUnit } from '../../../../Components/utils/options';
 
 const Type = ({ attributes, setAttributes }) => {
     const { img, viewerType, width, height } = attributes;
-    return <PanelBody className='bPlPanelBody' title={__('Image Source', 'bpivb')} initialOpen={false}>
+    return <PanelBody className='bPlPanelBody' title={__('Image Source', 'image-viewer')} initialOpen={false}>
         <Label className='mb5'>{__('Image:', 'panorama-block')}</Label>
         <InlineDetailMediaUpload value={img} types={['image']} onChange={val => setAttributes({ img: val })} placeholder={__('Enter Image URL', 'panorama-block')} />
 
-        <SelectControl className="mt20" label={__('View Type', 'bpivb')} value={viewerType} labelPosition="side" onChange={(val) => setAttributes({ viewerType: val })} options={viewerTypeOpt} />
+        <SelectControl className="mt20" label={__('View Type', 'image-viewer')} value={viewerType} labelPosition="side" onChange={(val) => setAttributes({ viewerType: val })} options={viewerTypeOpt} />
 
         {viewerType === 'pano' && <>
             <UnitControl className='mt20' label={__('Width:', 'panorama-block')} labelPosition='left' value={width} onChange={val => setAttributes({ width: val })} units={[pxUnit(), perUnit()]} />
