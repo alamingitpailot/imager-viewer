@@ -85,9 +85,27 @@ You can use unlimited times as you want.
 = 1.0.0 =
 * Initial Release
 
+
+== External Service Integration ==
+
+= Service Name: Panzoom.js =
+- Docs link: https://www.jqueryscript.net/zoom/jQuery-Plugin-For-Panning-Zooming-Any-Elements-panzoom.html#events
+
+= Service Name: three.min.js and panorama.min.js = 
+- Docs link: https://pchen66.github.io/panolens.js/docs
+
+
 == Developer Notes ==
 
-Public source code GitHub link for review, study, and contribute.
+* Images are zoomed using this file
+assets/js/panzoom.min.js
+
+* Images are rotated using this file
+assets/js/three.min.js
+assets/js/panorama.min.js
+
+
+* Public source code GitHub link for review, study, and contribute.
 
 https://github.com/alamingitpailot/imager-viewer
 
