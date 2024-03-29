@@ -23,7 +23,7 @@
 			"type": "object",
 			"default": {
 				"id": null,
-				"url": "https://i.ibb.co/DWjhC8v/green-grass-field.jpg",
+				"url": "",
 				"alt": "",
 				"title": ""
 			}
