@@ -1,9 +1,9 @@
-=== Image Viewer - Image Viewer ===
+=== Image Viewer ===
 Contributors: alamincmt
-Donate link: https://gum.co/wpdonate/
+Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, image viewer, zoom, magnify, Gutenberg block
 Requires at least: 5.0+
-Tested up to: 6.4.3
+Tested up to: 6.5
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -17,7 +17,11 @@ Image Viewer is a versatile WordPress plugin that provides an intuitive and user
 
 
 = Features =
-- **Fully Customizable**: All the options you need to arrange the showcase to your liking are available here.
+- Four types of image view: Zoom, Magnify, Map, and Rotation.
+- Zoom Options: Enable/disable Pan, Zoom, X Axis, And Y Axis; Set Start Scale and Step.
+- Magnify Options: Adjust Speed and Timeout.
+- Map Options: Add multiple items and set links.
+- Rotation Options: Set Width and Height, Enable/disable auto rotation, Adjust auto rotate speed, Hide controls.
 
 
 = How to use =
@@ -70,8 +74,11 @@ You can use unlimited times as you want.
 
 == Screenshots ==
 
-1. Image viewer
-2. Settings
+1. Settings
+2. Zoom
+3. Magnify
+4. Map
+5. Rotation
 
 
 == Changelog ==
@@ -84,29 +91,3 @@ You can use unlimited times as you want.
 
 = 1.0.0 =
 * Initial Release
-
-
-== External Service Integration ==
-
-= Service Name: Panzoom.js =
-- Docs link: https://www.jqueryscript.net/zoom/jQuery-Plugin-For-Panning-Zooming-Any-Elements-panzoom.html#events
-
-= Service Name: three.min.js and panorama.min.js = 
-- Docs link: https://pchen66.github.io/panolens.js/docs
-
-
-== Developer Notes ==
-
-* Images are zoomed using this file
-assets/js/panzoom.min.js
-
-* Images are rotated using this file
-assets/js/three.min.js
-assets/js/panorama.min.js
-
-
-* Public source code GitHub link for review, study, and contribute.
-
-https://github.com/alamingitpailot/imager-viewer
-
-For more information on how to contribute to this plugin, please visit our GitHub repository.
